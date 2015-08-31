@@ -1,0 +1,36 @@
+.logo h1 {
+  color: #999;
+  font-weight: bold; }
+
+.box1 {
+  padding-left: 0; }
+  .box1 .page-header {
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 10px; }
+    .box1 .page-header h1 {
+      font-weight: bold; }
+      .box1 .page-header h1:before {
+        content: "\f058";
+        font-family: FontAwesome;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        color: #3a87ad;
+        font-size: 30px; }
+
+.list-group a:first-child, .list-group a:last-child {
+  background: #eee; }
+
+.btn-default {
+  margin-bottom: 15px; }
+
+.box3 .form-group .username {
+  line-height: 32px; }
+.box3 .form-group p {
+  color: #999;
+  margin-top: 5px; }
+.box3 .form-group .btn-default {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */

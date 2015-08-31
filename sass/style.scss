@@ -1,0 +1,17 @@
+.logo h1{color: #999; font-weight: bold;}
+.box1 {padding-left: 0;
+    .page-header{border-bottom: 0; margin-bottom: 0; margin-top: 10px;
+        h1{font-weight: bold;
+            &:before{content: "\f058"; font-family: FontAwesome; width: 15px;height: 15px;border-radius: 50%;color: #3a87ad; font-size: 30px;}
+        }
+    } 
+}
+.list-group{
+    a:first-child, a:last-child{background: #eee;}
+}
+.btn-default{margin-bottom: 15px;}
+.box3 .form-group{
+    .username{line-height: 32px;}
+    p{color: #999; margin-top: 5px;}
+    .btn-default{float: right;}
+}
